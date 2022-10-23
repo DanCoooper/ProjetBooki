@@ -1,0 +1,135 @@
+html {
+    font-family: "raleway";
+    background-color: white;
+    /* max-width: 1400px;
+    height: 992px;
+    width: 768px; */
+}
+
+header {
+    margin-top: -8px;
+}
+
+.nav-container {
+    float: right;
+    margin-right: 77px;
+    width: 381px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+    padding: 0px 30px;
+    padding-top: 44px;
+
+}
+
+.nav-item:hover {
+    border-top: solid 2px;
+    border-color: blue;
+    color:  blue;
+}
+
+.logo {
+    width: 61.09px;
+    height: 19px;
+    margin-top: 44px;
+    margin-left: 55px;
+   
+}
+
+.section1 {
+    margin-top: 60px;
+    margin-left: 55px;
+}
+
+.loc {
+    background-color: #f2f2f2;
+    width: 50px;
+    border-style: hidden;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.div-search {
+    height: 49px;
+    display: flex;
+}
+
+.search {
+    border-style: solid;  
+    border-radius: 0px !important;
+    border-color: #F2F2F2 !important;
+}
+
+.btn-search {
+    color: white;
+    border-style: hidden;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0065FC;
+}
+
+.h3-filtre {
+padding: 14px 0px;
+margin: 0px;
+font-weight: bold;
+text-align: center;
+line-height: 1;
+}
+
+.filtre {
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-between;
+    width: 914px;
+    height: 50px;
+    vertical-align: auto;
+}
+
+.filtre-item {
+    font-weight: bold;
+    background-color: white;
+    border-radius: 30px;
+    border-color: #D9D9D9;
+    border-style: solid;
+    padding: 0px 20px;
+}
+
+.filtre-item:hover {
+    background-color: #DEEBFF;
+}
+
+.filtre-icon {
+   margin-right: 10px;
+   color: #0065FC;
+}
+
+.info {
+    margin-top: 50px;
+    display: flex;
+    height: 24px;
+    width: 577px;
+}
+
+.info-logo{
+    color: #0065FC;
+    margin: auto;
+}
+.round-info {
+    border: 1px solid #D9D9D9;
+    border-radius: 100%;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-info {
+    margin: auto;
+    margin-left: 11px;
+    font-weight: 400;
+}
