@@ -296,6 +296,7 @@ a{
     justify-content: space-between;
 }
 .section3-bloc-element {
+    margin: 0 10px;
     width: 100%;
     max-width: 302px;
     height: 444.51px;
@@ -360,10 +361,9 @@ footer {
         grid-template-columns: repeat(3,28%);
         justify-content: center;
         width: 90%;
-
     }
     .bloc2-element {
-        width: 110%;
+        width: 100%;
         height: 144px;
         background-color: white;
         border-radius: 20px ;
@@ -404,7 +404,8 @@ footer {
 
 @media (max-width: 768px) {
     body {
-        max-width: 768px;
+        width: 100%;
+        margin: 0;
     }
     header {
         display: grid;
@@ -421,6 +422,7 @@ footer {
         padding: 23px 50%;
         border-bottom: #D9D9D9 solid 2px;
     }
+
     .nav-item:hover {
         font-weight: 400;
         font-size: 16px;
@@ -432,7 +434,77 @@ footer {
     }
     .filtre-div {
         display: grid;
-        grid-template-columns: repeat(auto-fill,50%);
-        height: 100%;
+        height: auto;
+        justify-content: center;
+        grid-template-columns: repeat(2,200px);
+        margin: 10px 0;
+    }
+    .filtre-div-item{
+        width: 160px;
+        height: 50px;
+        margin: 5px;
+    }
+    #section1 {
+        text-align: center;
+    }
+    .filtre-h3 {
+        text-align: start;
+    }
+    .div-search {
+        justify-content: center;
+    }
+    #section2 {
+        width: 100%;
+        
+        flex-direction: column-reverse;
+    }
+    .bloc2 {
+        border-radius: 0px;
+        margin-top: 53px;
+        padding-bottom: 5%;
+        width: 100%;
+        height: auto;
+    }
+    .bloc2-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .bloc1 {
+        border-radius: 0;
+        height: auto;
+        background-color: white;
+    }
+    .bloc1-div {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bloc1-element {
+        height: 199px;
+    }
+    .section3-bloc {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section3-bloc-element {
+        width: 80%;
+        max-width: none;
+        height: auto;
+        margin: 10px 0;
+        
+    }
+    .section3-bloc-element-img {
+        width: auto;
+        max-width: none;
+    }
+    footer {
+        width: 100%;
+        flex-direction: column;
+        padding: 10%;
     }
 }
