@@ -44,6 +44,9 @@ a{
     display: flex;
     height: 49px;
 }
+.btn-search-logo {
+    display: none;
+}
 .loc{
     border-radius: 15px 0px 0px 15px;
     border: 0px;
@@ -437,7 +440,7 @@ footer {
         height: auto;
         justify-content: center;
         grid-template-columns: repeat(2,200px);
-        margin: 10px 0;
+        margin: 10px ;
     }
     .filtre-div-item{
         width: 160px;
@@ -445,13 +448,21 @@ footer {
         margin: 5px;
     }
     #section1 {
-        text-align: center;
+        padding: 0 20px;
     }
     .filtre-h3 {
         text-align: start;
     }
     .div-search {
         justify-content: center;
+    }
+    .btn-search-text {
+        display: none;
+
+    }
+    .btn-search-logo {
+        display: block;
+        padding: 5px;
     }
     #section2 {
         width: 100%;
