@@ -1,6 +1,6 @@
 html {
     font-family: "raleway";
-    background-color: black;
+    background-color: white;
 
 }
 body {
@@ -196,11 +196,11 @@ a{
     bottom: 10px;
 }
 .stars-item {
+    width: 12px;
+    height: 12px;
     color: #0065FC;
 }
 .stars-item-inactive {
-    width: 12px;
-    height: 12px;
     color: #d8d8d8;
 }
 
@@ -277,10 +277,6 @@ a{
     bottom: 5px
 }
 
-
-
-
-
         /* SECTION 3*/
 
 #section3 {
@@ -291,7 +287,7 @@ a{
     align-items: center;
 }
 .section3-div {
-    width: 90%;
+    width: 100%;
 }
 .section-h1 {
     margin-left: 50px;
@@ -338,11 +334,11 @@ a{
 
 footer {
     background-color: #F2F2F2;
-    width: auto;
+    width: 100%;
     margin-top: 61px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
@@ -356,7 +352,7 @@ footer {
 
     #section2 {
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         justify-content: center;
     }
     .bloc1 {
@@ -467,7 +463,7 @@ footer {
     }
     .filtre-div-item{
         width: 100%;
-        height: 60px;
+        height: 50px;
     }
     #section1 {
         padding: 0 20px;
@@ -502,6 +498,19 @@ footer {
         width: 100%;
         
         flex-direction: column-reverse;
+    }
+    .bloc2-element-stars {
+        bottom: 5px
+    }
+    
+    .bloc1-element-stars {
+        bottom: 10px;
+    }
+    .stars-item {
+        font-size: 15px;
+        padding: 0 5%;
+        width: 12px;
+        height: 12px;
     }
     .bloc2 {
         border-radius: 0px;
@@ -545,6 +554,9 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .section3-div {
+        width: 90%;
     }
     .section3-bloc-element {
         width: 100%;
