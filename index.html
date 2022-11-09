@@ -15,12 +15,16 @@
 
 <body>
     <header>
-        <a href="" class="a-logo"><img src="images/logo/Booki.png" alt="" class="logo"></a>
-        <div class="nav">
+        <div class="a-logo">
+            <a href="" ><img src="images/logo/Booki.png" alt="" class="logo"></a>
+        </div>
+        
+        <nav class="nav">
             <a href="#section2" class="nav-item">Hebergement</a>
             <a href="#section3" class="nav-item">Activité</a>
-        </div>
+        </nav>
     </header>
+
     <section id="section1">
         <h1 class="section1-h1">Trouvez votre hébergement pour des vacances de rêve</h1>
         <p class="section1-p">En plein centre-ville ou en pleine nature</p>       
@@ -31,8 +35,8 @@
                 </button>
                 <input class="search" type="search">
                 <button class="btn-search">
-                    <b class="btn-search-text">Rechercher</b>
-                    <i class="fas fa-search btn-search-logo"></i>
+                    <b class="element-desktop">Rechercher</b>
+                    <i class="fas fa-search element-mobile"></i>
                 </button>
             </div>
         </form>
@@ -64,7 +68,6 @@
                                 <div class="bloc1-element-text">
                                     <h5 class="bloc1-element-h5">Auberge La Canebière</h5>
                                     <p class="bloc1-element-p">Nuit à partir de 25€</p>
-        
                                 </div>
                                 <div class="bloc1-element-stars">
                                     <i class="fa-solid fa-star fa-2xs stars-item "></i>
@@ -74,7 +77,6 @@
                                     <i class="stars-item stars-item-inactive fa-solid fa-star fa-2xs"></i>
                                 </div>
                             </div>
-
                     </div>
                 </a>
                 <a href="#">
@@ -137,7 +139,6 @@
 
                     </div>
                 </a>
-
                 <a href="#">
                     <div class="bloc1-element">
                         <img class="bloc1-element-photo" src="images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
@@ -158,7 +159,6 @@
 
                     </div>
                 </a>
-
                 <a href="#">
                     <div class="bloc1-element">
                         <img class="bloc1-element-photo" src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
@@ -177,8 +177,9 @@
                             </div>
                     </div>
                 </a>
-
-
+            </div>
+            <div>
+                <h3 class="bloc1-title element-desktop">Afficher plus</h3>
             </div>
         </div>
         <div class="bloc2">
@@ -186,24 +187,26 @@
                 <h3 class="bloc2-h3">Les plus populaires</h3>
                 <i class="bloc2-chart fa-solid fa-chart-line"></i>
             </div>
-                <div class="bloc2-div">
+            <div class="bloc2-div">
+                <a href="#" class="widthMAX">                
                     <div class="bloc2-element">
-                        <img class="bloc2-element-imgsrc" src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
-                        <div class="bloc2-element-textAndstars">
-                            <div class="bloc2-element-text">
-                                <h5 class="bloc2-element-h5">Hôtel Le soleil du matin</h5>
-                                <p class="bloc2-element-p">Nuit à partir de 128€</p>
-                            </div>
-                            <div class="bloc2-element-stars">
-                                <i class="fa-solid fa-star fa-2xs stars-item "></i>
-                                <i class="fa-solid fa-star fa-2xs stars-item "></i>
-                                <i class="fa-solid fa-star fa-2xs stars-item "></i>
-                                <i class="fa-solid fa-star fa-2xs stars-item "></i>
-                                <i class="stars-item stars-item-inactive fa-solid fa-star fa-2xs"></i>
-                            </div>
+                    <img class="bloc2-element-imgsrc" src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
+                    <div class="bloc2-element-textAndstars">
+                        <div class="bloc2-element-text">
+                            <h5 class="bloc2-element-h5">Hôtel Le soleil du matin</h5>
+                            <p class="bloc2-element-p">Nuit à partir de 128€</p>
                         </div>
-            
+                        <div class="bloc2-element-stars">
+                            <i class="fa-solid fa-star fa-2xs stars-item "></i>
+                            <i class="fa-solid fa-star fa-2xs stars-item "></i>
+                            <i class="fa-solid fa-star fa-2xs stars-item "></i>
+                            <i class="fa-solid fa-star fa-2xs stars-item "></i>
+                            <i class="stars-item stars-item-inactive fa-solid fa-star fa-2xs"></i>
+                        </div>
                     </div>
+        
+                </div></a>
+                <a href="#" class="widthMAX">
                     <div class="bloc2-element">
                         <img class="bloc2-element-imgsrc" src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="">
                         <div class="bloc2-element-textAndstars">
@@ -220,8 +223,10 @@
                                 <i class="stars-item stars-item-inactive fa-solid fa-star fa-2xs"></i>
                             </div>
                         </div>
-
+    
                     </div>
+                </a>
+                <a href="#" class="widthMAX">
                     <div class="bloc2-element">
                         <img class="bloc2-element-imgsrc" src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
                         <div class="bloc2-element-textAndstars">
@@ -238,9 +243,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            
-            
+                </a>
+            </div>
         </div>
     </section>
 
