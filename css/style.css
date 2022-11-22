@@ -28,7 +28,7 @@ a {
 }
 
 .logo {
-	width: 61, 09px;
+	width: 61.09px;
 	height: 19px;
 	padding: 48px 0px;
 }
@@ -106,7 +106,6 @@ a {
 	gap: 10px;
 	width: 100%;
 	height: 50px;
-	vertical-align: auto;
 }
 
 .filtre-div-item {
