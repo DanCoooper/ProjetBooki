@@ -381,10 +381,14 @@ a {
 	object-fit: cover;
 }
 
+.section3-bloc-element-legende {
+	height: 8%;
+}
+
 .section3-bloc-element-h1 {
 	font-weight: 700;
 	font-size: 16px;
-	margin-left: 19px;
+	margin: 5% auto auto 5%;
 }
 
 
@@ -451,12 +455,12 @@ footer {
 		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	}
 	.bloc2-element-imgsrc {
-		width: 35%;
+		width: 50%;
 	}
 
 	.bloc2-element-textAndstars {
 		margin-top: 1%;
-		margin-left: 1%;
+		margin-left: 5%;
 	}
 
 	.bloc2-element-h5 {
@@ -636,6 +640,10 @@ footer {
 
 	.bloc2-element {
 		width: 100%;
+	}
+
+	.bloc2-element-imgsrc {
+		width: 35%;
 	}
 
 	.bloc1 {
