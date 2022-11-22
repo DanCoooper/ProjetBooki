@@ -364,6 +364,7 @@ a {
 
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 .margin10 {
 	margin: 0 10px;
 }
@@ -453,6 +454,7 @@ footer {
 		display: flex;
 		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	}
+
 	.bloc2-element-imgsrc {
 		width: 50%;
 	}
