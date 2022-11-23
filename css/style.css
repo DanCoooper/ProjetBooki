@@ -643,6 +643,12 @@ footer {
 		width: 100%;
 	}
 
+	.bloc2-element-h5 {
+		margin: 5px 0px 0px 0px;
+		font-size: 20px;
+		font-weight: 900;
+	}
+
 	.bloc2-element-imgsrc {
 		width: 35%;
 	}
@@ -689,6 +695,12 @@ footer {
 		height: 190px;
 		margin: 10px 0;
 
+	}
+
+	.section3-bloc-element-h1 {
+		font-weight: 700;
+		font-size: 16px;
+		margin: 2% auto auto 5%;
 	}
 
 	.section3-bloc-element-img {
