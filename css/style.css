@@ -726,6 +726,10 @@ footer {
 		margin-bottom: 5%;
 	}
 
+	.bloc2-element-imgsrc {
+		width: 35%;
+	}
+
 	.bloc2-element-h5 {
 		font-size: 20px;
 		font-weight: 700;
